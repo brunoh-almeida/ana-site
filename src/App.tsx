@@ -3,6 +3,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import './App.css'
+import IndexFoto from './assets/images/index-photo.jpg' 
 
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
           <button>Agende sua consulta</button>
         </div>
         <div className='content'>
-          <img className="main-image" src="src/assets/index-photo.jpg" />
+          <img className="main-image" src={IndexFoto} />
         </div>
       </div>
     </div>
