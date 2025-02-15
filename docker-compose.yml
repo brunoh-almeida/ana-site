@@ -1,0 +1,9 @@
+services:
+  ana-site:
+    container_name: ana_site
+    image: ana-capis:v1.0
+    restart: always
+    ports: 
+    - 3000:3000
+    labels:
+    - traefik.http.routers.my-container.rule=Host(`anacapistrano.vet`)
