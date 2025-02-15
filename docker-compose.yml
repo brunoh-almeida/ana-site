@@ -1,7 +1,7 @@
 services:
   ana-site:
     container_name: ana_site
-    image: ana-capis:v1.0
+    image: beagalmeida/ana-capis:v0.0.1 
     restart: always
     ports: 
     - 3000:3000
