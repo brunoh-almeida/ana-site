@@ -1,7 +1,7 @@
 services:
   ana-site:
     container_name: ana_site
-    image: beagalmeida/ana-capis:v0.0.1 
+    image: beagalmeida/ana-capis:v0.0.2
     platform: linux/amd64
     restart: always
     ports: 
